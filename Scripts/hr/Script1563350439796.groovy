@@ -26,8 +26,7 @@ def cook = getCookie(RE)
 
 RS = WS.sendRequest(findTestObject('HR/jx', [('cook') : cook]))
 
-WS.verifyElementPropertyValue(RS, 'd.userName', '曹东') 
-/*
+WS.verifyElementPropertyValue(RS, 'd.userName', '王波') /*
 
     out.write(cok)
 
@@ -35,13 +34,12 @@ WS.verifyElementPropertyValue(RS, 'd.userName', '曹东')
 
     out.close()
     */
+/*File file = new File('E://TestTools/KatalonDATA/TestAPI/Data Files/scook.csv')
+
+    BufferedWriter out = new BufferedWriter(new FileWriter(file))*/
 
 String getCookie(ResponseObject RE) {
     def rep = RE.headerFields
-
-    /*File file = new File('E://TestTools/KatalonDATA/TestAPI/Data Files/scook.csv')
-
-    BufferedWriter out = new BufferedWriter(new FileWriter(file))*/
 
     def cok = rep.get('Set-Cookie')[0].split(';')[0]
 

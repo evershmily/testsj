@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('scook').getValue(1, 1)</initValue>
+      <name>cook</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('uid').getValue(1, 1)</initValue>
+      <name>uid</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

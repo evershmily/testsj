@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>hr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54498c48-af18-45d1-84a0-64732155a916</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('uid').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>862e8c04-560c-4f65-b28a-d1197d25796b</id>
+      <masked>false</masked>
+      <name>uid</name>
+   </variable>
+</TestCaseEntity>

@@ -15,7 +15,7 @@
       <matchCondition>equals</matchCondition>
       <name>Cookie</name>
       <type>Main</type>
-      <value>sid=ba9dba589ca1e6b16e4d518dbc60badf</value>
+      <value>sid=61d809d4b47d03d9cca2edb5082d5d1f</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>

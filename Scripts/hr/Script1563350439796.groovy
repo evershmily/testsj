@@ -26,15 +26,14 @@ def cook = getCookie(RE)
 
 RS = WS.sendRequest(findTestObject('HR/jx', [('cook') : cook]))
 
-WS.verifyElementPropertyValue(RS, 'd.userName', '王波') /*
+WS.verifyElementPropertyValue(RS, 'd.userName', '曹东' /*
 
     out.write(cok)
 
     out.flush()
 
     out.close()
-    */
-/*File file = new File('E://TestTools/KatalonDATA/TestAPI/Data Files/scook.csv')
+    */ ) /*File file = new File('E://TestTools/KatalonDATA/TestAPI/Data Files/scook.csv')
 
     BufferedWriter out = new BufferedWriter(new FileWriter(file))*/
 
